@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run BQN",
+            "type": "shell",
+            "command": "bqn -p \"$(cat \"${file}\")\"", // Install CBQN
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "echo": true,
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        }
+    ],
+    "bqn.executablePath" : "/usr/bin/bqn",
+    "bqn.enableHoverDocumentation" : true
+}
