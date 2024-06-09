@@ -16,10 +16,3 @@ FindReverse ← ⌽(≠∘⊢↑⍷)○(⌽⎊⋈)
     # ⟨ 1 ⟩
 "are"‿"aquatic" FindReverse "ducks"‿"are"‿"aquatic"‿"avians"
     # ⟨ 0 0 1 0 ⟩
-
-# Explanation
-
-# ⌽⎊⋈    Reverses a list, or it creates a list if a non-array element was given
-# ≠∘⊢↑⍷  Is a 3-train to convert BQN's ⍷ to APL's
-# Over ○ will apply ⌽⎊⋈ to both arguments and then do the find on top of that
-# Apply a final reverse ⌽
