@@ -1,5 +1,5 @@
 utils ← •Import "lib/utils.bqn"
-input ← "../AoC 2024/01-historian-hysteria/inpbasic.txt"
+input ← "../AoC 2024/01-historian-hysteria/inp.txt"
 
 inp ← utils.ParseNums input
 
@@ -7,3 +7,4 @@ inp ← utils.ParseNums input
 +´|-˝∧˘⍉ inp
 
 # Solution to Part II
++´ (⊣×·+˝˘=⌜)˝ ⍉inp
