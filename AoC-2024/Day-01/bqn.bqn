@@ -1,5 +1,5 @@
 utils ← •Import "lib/utils.bqn"
-input ← "../AoC 2024/01-historian-hysteria/inp.txt"
+input ← "../AoC-2024/Day-01/inp.txt"
 
 inp ← utils.ParseNums input
 
